@@ -23,6 +23,7 @@
     }
     .todo-input{
         width: 100%;
+        margin-left: 20px;
     }
     .todo-btn{
         margin: 8px 75px;
