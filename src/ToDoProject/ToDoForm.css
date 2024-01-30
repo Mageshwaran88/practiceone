@@ -26,9 +26,13 @@
     }
     .todo-input{
         width: 100%;
+        padding: 0px;
     }
     .todo-btn{
         margin: 8px 75px;
+    }
+    .todohead{
+        font-size: 25px;
     }
 }
 .todohead{
