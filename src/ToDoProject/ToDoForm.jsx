@@ -36,7 +36,7 @@ export const ToDoForm = () => {
     <div className='todomain'>
     <div className='todoform'>
       <h1 className='todohead'>TO-DO-LIST</h1>
-        <input onChange={handleinput} type="text" className='todo-input' placeholder='enter your task here...' />
+        <input onChange={handleinput} type="text" className='todo-input'/>
         <button onClick={handleadd} type='submit'className='todo-btn'>Add</button>
         <div>
           {myarray.map((arraydata,i)=>(
