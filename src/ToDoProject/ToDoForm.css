@@ -7,17 +7,20 @@
 .todomain{
     display: flex;
     justify-content: center;
-    align-items: flex-start;
+    align-items: center;
     flex-wrap: wrap;
     height:100vh;
     background: linear-gradient(to right,rgb(207, 135, 201), rgb(153, 236, 236))}
 .todoform{
     background-color: rgb(224, 216, 216);
     padding: 50px;
-    margin-top: 100px;
+    /* margin-top: 100px; */
     border-radius: 5px;
 }
 @media only screen and (max-width: 320px){
+    .todomain{
+        width: 100%;
+    }
     .todoform{
         width: 280px;
     }
